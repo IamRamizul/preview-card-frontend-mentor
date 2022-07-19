@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+.container{
+  padding: 0;
+  margin-top: 80px;
+}
+
+.price, .strikedPrice{
+  display: inline;
+  
+}
+.strikedPrice{
+  text-decoration: line-through;
+}
+
+.btn{
+  margin-top: 20px;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+}
+
+.price{
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+  font-weight: 700;
+}
+
+p{
+  font-size: 14px;
+  padding: 5px 0;
+  color: hsl(228, 12%, 48%)
+  
+}
+.card-title{
+  font-family: Montsesrrat;
+  font-weight: 700;
+}
+
+small{
+  letter-spacing: 10px;
+}
+
+@media (max-width: 770px){
+  .desktopImage{
+    display: none;
+  }
+  .mobileImage{
+    display: block;
+  }
+  .container{
+    padding: 15px;
+  }
+}
+
+@media (min-width: 770px){
+  .mobileImage{
+    display: none;
+  }
+  .desktopImage{
+    display: block;
+  }
+}
